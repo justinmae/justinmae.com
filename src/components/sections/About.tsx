@@ -5,8 +5,8 @@ export const About = () => {
   return (
     <section className="py-20 px-4" id="about">
       <div className="max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-8 items-start">
-          <div className="relative order-1 flex justify-center">
+        <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="relative order-1 flex items-center justify-center h-full">
             <div className="relative w-64 h-64 md:w-80 md:h-80">
               <div className="absolute inset-0 bg-accent-primary/20 rounded-2xl transform rotate-6 scale-95"></div>
               <img
