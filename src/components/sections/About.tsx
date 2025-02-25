@@ -39,10 +39,9 @@ export const About = () => {
           
           <div className="relative order-1 md:order-2 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80">
-              {/* Replace 'placeholder.svg' with your actual image */}
               <div className="absolute inset-0 bg-accent-primary/20 rounded-2xl transform rotate-6 scale-95"></div>
               <img
-                src="placeholder.svg"
+                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
                 alt="Profile"
                 className="absolute inset-0 w-full h-full object-cover rounded-2xl shadow-lg border-4 border-white bg-white"
               />
