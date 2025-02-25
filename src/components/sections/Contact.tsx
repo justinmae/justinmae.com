@@ -10,7 +10,8 @@ export const Contact = () => {
     <section className="py-20 px-4" id="contact">
       <div className="max-w-6xl mx-auto text-center">
         <span className="text-accent-primary font-medium mb-2 block">Contact</span>
-        <h2 className="text-3xl md:text-4xl font-bold mb-6">Get In Touch</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-2">Get In Touch</h2>
+        <p className="text-soft-dark/80 mb-8">Have a question or want to work together? Feel free to reach out!</p>
         
         <div className="flex gap-6 justify-center mb-6">
           <a 
