@@ -12,7 +12,7 @@ export const Contact = () => {
         <span className="text-accent-primary font-medium mb-2 block">Contact</span>
         <h2 className="text-3xl md:text-4xl font-bold mb-6">Get In Touch</h2>
         
-        <div className="flex gap-6 justify-center mb-12">
+        <div className="flex gap-6 justify-center mb-6">
           <a 
             href="#" 
             className="text-soft-dark/60 hover:text-accent-primary transition-colors"
@@ -34,14 +34,15 @@ export const Contact = () => {
           >
             <Twitter className="w-6 h-6" />
           </a>
-          <a 
-            href="mailto:hello@justinmae.com" 
-            className="text-soft-dark/60 hover:text-accent-primary transition-colors"
-            aria-label="Send Email"
-          >
-            <Mail className="w-6 h-6" />
-          </a>
         </div>
+
+        <a 
+          href="mailto:hello@justinmae.com"
+          className="inline-flex items-center gap-2 text-soft-dark/80 hover:text-accent-primary transition-colors mb-12"
+        >
+          <Mail className="w-6 h-6" />
+          <span className="text-lg">hello@justinmae.com</span>
+        </a>
         
         <Card className="max-w-2xl mx-auto p-8 bg-white/80 backdrop-blur-sm">
           <form className="space-y-6">
