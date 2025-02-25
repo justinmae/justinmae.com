@@ -1,5 +1,5 @@
 
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
@@ -30,6 +30,9 @@ export const Hero = () => {
           <Linkedin className="w-6 h-6" />
         </a>
         <a href="#" className="text-soft-dark/60 hover:text-accent-primary transition-colors">
+          <Twitter className="w-6 h-6" />
+        </a>
+        <a href="mailto:hello@justinmae.com" className="text-soft-dark/60 hover:text-accent-primary transition-colors">
           <Mail className="w-6 h-6" />
         </a>
       </div>
