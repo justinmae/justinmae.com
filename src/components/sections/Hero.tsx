@@ -3,6 +3,11 @@ import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    element?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <section className="min-h-[90vh] flex flex-col justify-center items-center text-center px-4 animate-fade-in">
       <span className="text-accent-primary font-medium mb-4 animate-fade-up" style={{ animationDelay: "0.2s" }}>
@@ -15,10 +20,17 @@ export const Hero = () => {
         I build elegant solutions to complex problems, focusing on clean code and exceptional user experiences.
       </p>
       <div className="flex gap-4 animate-fade-up" style={{ animationDelay: "0.5s" }}>
-        <Button className="bg-accent-primary hover:bg-accent-secondary transition-colors">
+        <Button 
+          className="bg-accent-primary hover:bg-accent-secondary transition-colors"
+          onClick={() => scrollToSection("projects")}
+        >
           View Projects
         </Button>
-        <Button variant="outline" className="border-accent-primary text-accent-primary hover:bg-accent-primary hover:text-white transition-colors">
+        <Button 
+          variant="outline" 
+          className="border-accent-primary text-accent-primary hover:bg-accent-primary hover:text-white transition-colors"
+          onClick={() => scrollToSection("contact")}
+        >
           Contact Me
         </Button>
       </div>
