@@ -9,7 +9,18 @@ export const About = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-12">Background & Expertise</h2>
         
         <div className="grid md:grid-cols-2 gap-8 items-center">
-          <div className="space-y-6 order-2 md:order-1">
+          <div className="relative order-1 flex justify-center">
+            <div className="relative w-64 h-64 md:w-80 md:h-80">
+              <div className="absolute inset-0 bg-accent-primary/20 rounded-2xl transform rotate-6 scale-95"></div>
+              <img
+                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
+                alt="Profile"
+                className="absolute inset-0 w-full h-full object-cover rounded-2xl shadow-lg border-4 border-white bg-white"
+              />
+            </div>
+          </div>
+          
+          <div className="space-y-6 order-2">
             <p className="text-soft-dark/80 leading-relaxed">
               With a passion for creating innovative solutions, I specialize in building robust and scalable applications. My approach combines technical expertise with a keen eye for user experience.
             </p>
@@ -34,17 +45,6 @@ export const About = () => {
                 <h3 className="font-bold mb-2">DevOps</h3>
                 <p className="text-soft-dark/60 text-sm">Docker, AWS, CI/CD</p>
               </Card>
-            </div>
-          </div>
-          
-          <div className="relative order-1 md:order-2 flex justify-center">
-            <div className="relative w-64 h-64 md:w-80 md:h-80">
-              <div className="absolute inset-0 bg-accent-primary/20 rounded-2xl transform rotate-6 scale-95"></div>
-              <img
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
-                alt="Profile"
-                className="absolute inset-0 w-full h-full object-cover rounded-2xl shadow-lg border-4 border-white bg-white"
-              />
             </div>
           </div>
         </div>
