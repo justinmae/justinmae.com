@@ -1,5 +1,5 @@
 
-import { Home, User, Grid, Mail } from "lucide-react";
+import { Home, User, Grid, Mail, Code } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const Navbar = () => {
@@ -11,8 +11,16 @@ export const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-sm z-50 py-4 px-6 shadow-sm">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
-        <a href="#" className="text-accent-primary font-medium hover:text-accent-secondary transition-colors">
-          Portfolio
+        <a 
+          href="#" 
+          className="flex items-center gap-2 text-lg font-medium hover:text-accent-primary transition-colors"
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("home");
+          }}
+        >
+          <Code className="w-5 h-5 text-accent-primary" />
+          <span>Justin Mae</span>
         </a>
         
         <div className="flex gap-2 md:gap-4">
