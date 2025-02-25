@@ -5,10 +5,7 @@ export const About = () => {
   return (
     <section className="py-20 px-4" id="about">
       <div className="max-w-6xl mx-auto">
-        <span className="text-accent-primary font-medium mb-2 block">About Me</span>
-        <h2 className="text-3xl md:text-4xl font-bold mb-12">Background & Expertise</h2>
-        
-        <div className="grid md:grid-cols-2 gap-8 items-center">
+        <div className="grid md:grid-cols-2 gap-8 items-start">
           <div className="relative order-1 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80">
               <div className="absolute inset-0 bg-accent-primary/20 rounded-2xl transform rotate-6 scale-95"></div>
@@ -21,6 +18,11 @@ export const About = () => {
           </div>
           
           <div className="space-y-6 order-2">
+            <div className="mb-8">
+              <span className="text-accent-primary font-medium mb-2 block">About Me</span>
+              <h2 className="text-3xl md:text-4xl font-bold">Background & Expertise</h2>
+            </div>
+
             <p className="text-soft-dark/80 leading-relaxed">
               With a passion for creating innovative solutions, I specialize in building robust and scalable applications. My approach combines technical expertise with a keen eye for user experience.
             </p>
