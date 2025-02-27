@@ -14,7 +14,7 @@ export const Hero = () => {
         Software Engineer
       </span>
       <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-up" style={{ animationDelay: "0.3s" }}>
-        Crafting AI to Simplify Your Life
+        Building AI to Simplify Your Life
       </h1>
       <div className="flex gap-4 animate-fade-up" style={{ animationDelay: "0.5s" }}>
         <Button 
