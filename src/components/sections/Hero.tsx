@@ -23,7 +23,7 @@ export const Hero = () => {
         className="text-xl md:text-2xl text-accent-primary hover:text-accent-secondary flex items-center gap-1 transition-all duration-300 mb-8 animate-fade-up font-medium"
         style={{ animationDelay: "0.4s" }}
       >
-        PlanLife.ai
+        PlanLife.ai—Your AI Life Planner
         <ExternalLink className="w-4 h-4 inline-block" />
       </a>
       <div className="flex gap-4 animate-fade-up" style={{ animationDelay: "0.5s" }}>
