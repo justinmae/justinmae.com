@@ -20,12 +20,7 @@ export const Navbar = () => {
           }}
         >
           <Code className="w-5 h-5 text-accent-primary" />
-          <div className="flex flex-col">
-            <span className="text-lg font-medium">Justin Mae</span>
-            <span className="text-xs text-soft-dark/60 group-hover:text-accent-primary transition-colors">
-              Founder, PlanLife.ai—Your AI Life Planner
-            </span>
-          </div>
+          <span className="text-lg font-medium">Justin Mae</span>
         </a>
         
         <div className="flex gap-2 md:gap-4">
