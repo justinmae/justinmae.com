@@ -1,5 +1,6 @@
 
 import { Button } from "@/components/ui/button";
+import { ExternalLink } from "lucide-react";
 
 export const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -19,14 +20,15 @@ export const Hero = () => {
         href="https://planlife.ai" 
         target="_blank" 
         rel="noopener noreferrer"
-        className="text-accent-primary hover:text-accent-secondary transition-colors mb-6 animate-fade-up"
+        className="text-xl md:text-2xl text-accent-primary hover:text-accent-secondary flex items-center gap-1 transition-all duration-300 mb-8 animate-fade-up font-medium"
         style={{ animationDelay: "0.4s" }}
       >
         PlanLife.ai
+        <ExternalLink className="w-4 h-4 inline-block" />
       </a>
       <div className="flex gap-4 animate-fade-up" style={{ animationDelay: "0.5s" }}>
         <Button 
-          className="bg-accent-primary hover:bg-accent-secondary transition-colors"
+          className="bg-accent-primary hover:bg-accent-secondary transition-colors px-8 py-6 text-base"
           onClick={() => scrollToSection("contact")}
         >
           Contact Me
