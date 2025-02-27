@@ -11,7 +11,7 @@ export const Hero = () => {
   return (
     <section className="min-h-[90vh] flex flex-col justify-center items-center text-center px-4 animate-fade-in">
       <span className="text-accent-primary font-medium mb-4 animate-fade-up" style={{ animationDelay: "0.2s" }}>
-        Justin Mae, <a href="https://planlife.ai" target="_blank" rel="noopener noreferrer" className="hover:underline">PlanLife.ai</a>
+        Justin Mae, Founder, <a href="https://planlife.ai" target="_blank" rel="noopener noreferrer" className="hover:underline">PlanLife.ai</a>
       </span>
       <h1 className="text-4xl md:text-6xl font-bold mb-8 animate-fade-up" style={{ animationDelay: "0.3s" }}>
         Engineer building AI to simplify your life
