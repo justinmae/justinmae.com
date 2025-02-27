@@ -1,5 +1,5 @@
 
-import { Home, User, Grid, Mail, Code } from "lucide-react";
+import { Home, Mail, Code } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const Navbar = () => {
@@ -42,24 +42,6 @@ export const Navbar = () => {
             variant="ghost"
             size="sm"
             className="hidden md:inline-flex hover:text-accent-primary"
-            onClick={() => scrollToSection("about")}
-          >
-            <User className="w-4 h-4 mr-2" />
-            About
-          </Button>
-          <Button
-            variant="ghost"
-            size="sm"
-            className="hidden md:inline-flex hover:text-accent-primary"
-            onClick={() => scrollToSection("projects")}
-          >
-            <Grid className="w-4 h-4 mr-2" />
-            Projects
-          </Button>
-          <Button
-            variant="ghost"
-            size="sm"
-            className="hidden md:inline-flex hover:text-accent-primary"
             onClick={() => scrollToSection("contact")}
           >
             <Mail className="w-4 h-4 mr-2" />
@@ -74,22 +56,6 @@ export const Navbar = () => {
             onClick={() => scrollToSection("home")}
           >
             <Home className="w-4 h-4" />
-          </Button>
-          <Button
-            variant="ghost"
-            size="icon"
-            className="md:hidden"
-            onClick={() => scrollToSection("about")}
-          >
-            <User className="w-4 h-4" />
-          </Button>
-          <Button
-            variant="ghost"
-            size="icon"
-            className="md:hidden"
-            onClick={() => scrollToSection("projects")}
-          >
-            <Grid className="w-4 h-4" />
           </Button>
           <Button
             variant="ghost"
