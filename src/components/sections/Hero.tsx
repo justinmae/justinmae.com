@@ -20,8 +20,8 @@ export const Hero = () => {
         </span>
         
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-10 animate-fade-up" style={{ animationDelay: "0.3s" }}>
-          Engineer building AI <br className="hidden md:block" />
-          <span className="bg-gradient-to-r from-accent-primary to-accent-secondary bg-clip-text text-transparent">to simplify your life</span>
+          Building AI <br className="hidden md:block" />
+          <span className="bg-gradient-to-r from-accent-primary to-accent-secondary bg-clip-text text-transparent">to simplify your life.</span>
         </h1>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-up" style={{ animationDelay: "0.5s" }}>
