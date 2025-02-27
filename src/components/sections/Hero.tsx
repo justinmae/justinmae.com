@@ -15,6 +15,15 @@ export const Hero = () => {
       <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-up" style={{ animationDelay: "0.3s" }}>
         Building AI to Simplify Your Life
       </h1>
+      <a 
+        href="https://planlife.ai" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="text-accent-primary hover:text-accent-secondary transition-colors mb-6 animate-fade-up"
+        style={{ animationDelay: "0.4s" }}
+      >
+        PlanLife.ai
+      </a>
       <div className="flex gap-4 animate-fade-up" style={{ animationDelay: "0.5s" }}>
         <Button 
           className="bg-accent-primary hover:bg-accent-secondary transition-colors"
