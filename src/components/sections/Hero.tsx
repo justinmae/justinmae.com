@@ -10,7 +10,7 @@ export const Hero = () => {
   return (
     <section className="min-h-[90vh] flex flex-col justify-center items-center text-center px-4 animate-fade-in">
       <span className="text-accent-primary font-medium mb-4 animate-fade-up" style={{ animationDelay: "0.2s" }}>
-        Software Engineer
+        Founder | Software Engineer
       </span>
       <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-up" style={{ animationDelay: "0.3s" }}>
         Building AI to Simplify Your Life
