@@ -11,10 +11,10 @@ export const Hero = () => {
   return (
     <section className="min-h-[90vh] flex flex-col justify-center items-center text-center px-4 animate-fade-in">
       <span className="text-accent-primary font-medium mb-4 animate-fade-up" style={{ animationDelay: "0.2s" }}>
-        Founder of PlanLife.ai | Software Engineer
+        Justin Mae, Founder, PlanLife.ai
       </span>
       <h1 className="text-4xl md:text-6xl font-bold mb-8 animate-fade-up" style={{ animationDelay: "0.3s" }}>
-        Building AI to Simplify Your Life
+        Engineer building AI to simplify your life
       </h1>
       <a 
         href="https://planlife.ai" 
