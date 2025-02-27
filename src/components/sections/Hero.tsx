@@ -16,19 +16,9 @@ export const Hero = () => {
       <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-up" style={{ animationDelay: "0.3s" }}>
         Crafting AI to Simplify Your Life
       </h1>
-      <p className="text-lg md:text-xl text-soft-dark/80 max-w-2xl mb-8 animate-fade-up" style={{ animationDelay: "0.4s" }}>
-        I build elegant solutions to complex problems, focusing on clean code and exceptional user experiences.
-      </p>
       <div className="flex gap-4 animate-fade-up" style={{ animationDelay: "0.5s" }}>
         <Button 
           className="bg-accent-primary hover:bg-accent-secondary transition-colors"
-          onClick={() => scrollToSection("projects")}
-        >
-          View Projects
-        </Button>
-        <Button 
-          variant="outline" 
-          className="border-accent-primary text-accent-primary hover:bg-accent-primary hover:text-white transition-colors"
           onClick={() => scrollToSection("contact")}
         >
           Contact Me
