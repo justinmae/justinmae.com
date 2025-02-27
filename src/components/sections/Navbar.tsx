@@ -22,9 +22,14 @@ export const Navbar = () => {
           <Code className="w-5 h-5 text-accent-primary" />
           <div className="flex flex-col">
             <span className="text-lg font-medium">Justin Mae</span>
-            <span className="text-xs text-soft-dark/60 group-hover:text-accent-primary transition-colors">
+            <a 
+              href="https://planlife.ai" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-xs text-soft-dark/60 hover:text-accent-primary transition-colors"
+            >
               Founder, PlanLife.ai—Your AI Life Planner
-            </span>
+            </a>
           </div>
         </a>
         
