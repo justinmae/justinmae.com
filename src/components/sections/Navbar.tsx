@@ -13,14 +13,19 @@ export const Navbar = () => {
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <a 
           href="#" 
-          className="flex items-center gap-2 text-lg font-medium hover:text-accent-primary transition-colors"
+          className="flex items-center gap-2 group hover:text-accent-primary transition-colors"
           onClick={(e) => {
             e.preventDefault();
             scrollToSection("home");
           }}
         >
           <Code className="w-5 h-5 text-accent-primary" />
-          <span>Justin Mae</span>
+          <div className="flex flex-col">
+            <span className="text-lg font-medium">Justin Mae</span>
+            <span className="text-xs text-soft-dark/60 group-hover:text-accent-primary transition-colors">
+              Founder, PlanLife.ai—Your AI Life Planner
+            </span>
+          </div>
         </a>
         
         <div className="flex gap-2 md:gap-4">
