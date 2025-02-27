@@ -1,5 +1,4 @@
 
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
@@ -23,35 +22,6 @@ export const Hero = () => {
         >
           Contact Me
         </Button>
-      </div>
-      <div className="flex gap-6 mt-12 animate-fade-up" style={{ animationDelay: "0.6s" }}>
-        <a 
-          href="https://github.com/justinmae" 
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-soft-dark/60 hover:text-accent-primary transition-colors"
-        >
-          <Github className="w-6 h-6" />
-        </a>
-        <a 
-          href="https://linkedin.com/in/justinmae" 
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-soft-dark/60 hover:text-accent-primary transition-colors"
-        >
-          <Linkedin className="w-6 h-6" />
-        </a>
-        <a 
-          href="https://twitter.com/jmae1" 
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-soft-dark/60 hover:text-accent-primary transition-colors"
-        >
-          <Twitter className="w-6 h-6" />
-        </a>
-        <a href="mailto:hello@justinmae.com" className="text-soft-dark/60 hover:text-accent-primary transition-colors">
-          <Mail className="w-6 h-6" />
-        </a>
       </div>
     </section>
   );
