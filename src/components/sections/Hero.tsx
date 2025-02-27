@@ -24,20 +24,12 @@ export const Hero = () => {
           <span className="bg-gradient-to-r from-accent-primary to-accent-secondary bg-clip-text text-transparent">to simplify your life.</span>
         </h1>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-up" style={{ animationDelay: "0.5s" }}>
+        <div className="flex justify-center items-center animate-fade-up" style={{ animationDelay: "0.5s" }}>
           <Button 
-            className="bg-accent-primary hover:bg-accent-secondary transition-colors px-8 py-6 text-base w-full sm:w-auto"
+            className="bg-accent-primary hover:bg-accent-secondary transition-colors px-8 py-6 text-base"
             onClick={() => scrollToSection("contact")}
           >
             Contact Me
-          </Button>
-          
-          <Button 
-            variant="outline"
-            className="border-accent-primary text-accent-primary hover:bg-accent-primary/10 transition-colors px-8 py-6 text-base w-full sm:w-auto"
-            onClick={() => window.open("https://planlife.ai", "_blank")}
-          >
-            Visit PlanLife.ai <ArrowRight className="ml-1 w-4 h-4" />
           </Button>
         </div>
       </div>
