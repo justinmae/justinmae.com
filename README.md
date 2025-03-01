@@ -1,69 +1,59 @@
-# Welcome to your Lovable project
+# Justin Mae's Portfolio
 
-## Project info
+This is a personal portfolio website built with Next.js and deployed on GitHub Pages.
 
-**URL**: https://lovable.dev/projects/ab4760b5-d134-4bf8-8fcb-247818d7154a
+## Technologies Used
 
-## How can I edit this code?
+- Next.js 15
+- React 18
+- TypeScript
+- Tailwind CSS
+- shadcn/ui components
+- GitHub Pages for deployment
 
-There are several ways of editing your application.
+## Development
 
-**Use Lovable**
+To run the development server:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ab4760b5-d134-4bf8-8fcb-247818d7154a) and start prompting.
+```bash
+# Install dependencies
+npm install
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The development server will run on [http://localhost:3000](http://localhost:3000).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Building for Production
 
-**Use GitHub Codespaces**
+To build the project for production:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+# Build the project
+npm run build
+```
 
-## What technologies are used for this project?
+This will create a static export in the `out` directory, ready for deployment to GitHub Pages.
 
-This project is built with .
+## Deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+This project is configured for GitHub Pages deployment:
 
-## How can I deploy this project?
+```bash
+# Deploy to GitHub Pages
+npm run deploy
+```
 
-Simply open [Lovable](https://lovable.dev/projects/ab4760b5-d134-4bf8-8fcb-247818d7154a) and click on Share -> Publish.
+This will build the project and push the `out` directory to the `gh-pages` branch.
 
-## I want to use a custom domain - is that possible?
+## Project Structure
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+- `app/` - Next.js app directory containing pages and layouts
+- `components/` - Reusable UI components
+- `lib/` - Utility functions and hooks
+- `public/` - Static assets
+
+## Notes
+
+This project was migrated from Vite to Next.js. The migration process is documented in the `cursor.log` file.
