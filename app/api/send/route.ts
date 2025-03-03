@@ -5,6 +5,17 @@ import { Resend } from 'resend';
 // Replace 'YOUR_RESEND_API_KEY' with your actual API key
 const resend = new Resend(process.env.RESEND_API_KEY);
 
+// Allow CORS preflight requests
+export async function OPTIONS() {
+  return NextResponse.json({}, { 
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'POST, OPTIONS',
+      'Access-Control-Allow-Headers': 'Content-Type, Authorization'
+    } 
+  });
+}
+
 export async function POST(request: Request) {
   try {
     // Parse request body
