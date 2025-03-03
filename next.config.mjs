@@ -5,7 +5,7 @@ const nextConfig = {
     domains: [],
     unoptimized: true, // For GitHub Pages compatibility
   },
-  output: 'export', // Enables static HTML export
+  // Removed output: 'export' to enable API routes on Vercel
 };
 
 export default nextConfig; 
