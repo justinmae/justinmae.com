@@ -73,21 +73,21 @@ export const Contact = () => {
         
         <div className="flex gap-8 justify-center mb-8">
           <a 
-            href="#" 
+            href="https://github.com/justinmae" 
             className="text-soft-dark/60 hover:text-accent-primary transition-colors"
             aria-label="Github Profile"
           >
             <Github className="w-7 h-7" />
           </a>
           <a 
-            href="#" 
+            href="https://www.linkedin.com/in/justinmae" 
             className="text-soft-dark/60 hover:text-accent-primary transition-colors"
             aria-label="LinkedIn Profile"
           >
             <Linkedin className="w-7 h-7" />
           </a>
           <a 
-            href="#" 
+            href="https://x.com/jmae1" 
             className="text-soft-dark/60 hover:text-accent-primary transition-colors"
             aria-label="Twitter Profile"
           >
